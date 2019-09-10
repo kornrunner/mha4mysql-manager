@@ -1,6 +1,6 @@
 Summary: Master High Availability Manager and Tools for MySQL, Manager Package
 Name: mha4mysql-manager
-Version: 0.58
+Version: 0.59
 Release: 0%{?dist}
 License: GPL v2
 Vendor: DeNA Co.,Ltd.
@@ -64,6 +64,16 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 
 %changelog
+* Tue Sep 10 2019 Boris Momčilović <boris.momcilovic@gmail.com>
+- MasterRotate.pm: notify if no need to change master, fixup
+- ServerManager.pm: fixup masterha_check_repl
+- MasterRotate.pm: notify if no need to change master
+- MasterMonitor.pm: call things their names
+- HealthCheck.pm: spelling
+- MasterRotate.pm: Repllicate_Do_DB and Replicate_Ignore_DB shoud be same
+- Add missing rpm build requirements
+- Version 0.59
+
 * Thu Mar 22 2018 Kenny.Gryp <kenny@goss.be>
 - Several bugfixes
 - IPV6 support

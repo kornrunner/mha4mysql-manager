@@ -1,3 +1,16 @@
+mha4mysql-manager (0.59-0) squeeze; urgency=low
+
+  * MasterRotate.pm: notify if no need to change master, fixup
+  * ServerManager.pm: fixup masterha_check_repl
+  * MasterRotate.pm: notify if no need to change master
+  * MasterMonitor.pm: call things their names
+  * HealthCheck.pm: spelling
+  * MasterRotate.pm: Repllicate_Do_DB and Replicate_Ignore_DB shoud be same
+  * Add missing rpm build requirements
+  * Version 0.59
+
+ -- Boris Momčilović <boris.momcilovic@gmail.com>  Tue, 10 Sep 2019 00:00:00 +0000
+
 mha4mysql-manager (0.58-0) squeeze; urgency=low
 
   * Several bugfixes
